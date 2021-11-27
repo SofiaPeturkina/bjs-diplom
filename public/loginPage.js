@@ -17,7 +17,7 @@ userForm.registerFormCallback = (data) => {
         if (response.success === true) {
             location.reload();
         } else {
-            userForm.setLoginErrorMessage("Произошла ошибка при регистрации.");
+            userForm.setRegisterErrorMessage("Произошла ошибка при регистрации.");
         }
     });
-}
+};
